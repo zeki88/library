@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <title>Library</title>
+    <link rel="stylesheet" href="style.css"  type="text/css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div id="blur" class="blur"></div>
+    <header>Library</header>
+    <button id="button_add_book" class="button_add_book">+</button>
+    <main>
+
+      <div class="cards" id="cards" name="cards"></div>
+
+      <div id="book_form" class="book_form">
+        <form id="book_add" action="" method="">
+          <p id="form_title" class="form_title">Add new book</p>
+          <div class="text_input">
+            <input type="text" class="title" name="title" id="title" placeholder="title">
+            <p class="error" id="error_title">*Title must contain only letters</p>
+          </div>
+          <div class="text_input">
+            <input type="text" name="author" class="author" id="author" placeholder="author">
+            <p class="error" id="error_author">Author name must contain only letters</p>
+          </div>
+          <div class="text_input">
+            <input type="text" name="pages" class="pages" id="pages" placeholder="pages">
+            <p class="error" id="error_pages">Pages must contain only numbers</p>
+          </div>
+          <div class="checkbox_input">
+            <label for="read">Have you read it?</label>
+            <input type="checkbox" class="read" id="read">
+          </div>
+          <div>
+            <p class="fill" id="fill" name="fill">Please fill out all the required fields</p>
+              <input class='button_submit' type="submit">
+          </div>
+        </form>
+      </div>
+
+    </main>
+
+    <footer>
+      
+    </footer>
+  </body>
+</html>
